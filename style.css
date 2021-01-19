@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+body{
+    background-color:#A7BED3;
+
+}
+/*section header*/
+
+.header p{
+    font-style: italic;
+}
+
+/*body*/
+
+ul{
+    width: 260px;
+    height: 210px;
+    background-color: #FFCAAF;
+    overflow: hidden;
+    margin: 30px 550px;
+    cursor: pointer;
+}
+li{
+    transition: transform 0.4s;
+
+}
+li:hover{
+    transform: scale(.9);
+}
+.white{
+    width: 25px;
+    height: 200px;
+    background-color: white;
+    list-style: none;
+    float: left;
+    margin-left: 3px;
+    text-align: center;
+    border-bottom: 5px solid black;
+    border-left: 1px solid black;
+    border-right: 3px solid black;
+    border-top: 2px solid black;
+}
+.li1{
+    position: absolute;
+    top: 270px;
+    left: 560px;
+}.li2{
+    position: absolute;
+    top: 270px;
+    left: 592px;
+}.li3{
+    position: absolute;
+    top: 270px;
+    left: 625px;
+}.li4{
+    position: absolute;
+    top: 270px;
+    left: 657px;
+}.li5{
+    position: absolute;
+    top: 270px;
+    left: 687px;
+}.li6{
+    position: absolute;
+    top: 270px;
+    left: 720px;
+}.li7{
+    position: absolute;
+    top: 270px;
+    left: 753px;
+}
+.li8{
+    position: absolute;
+    top: 270px;
+    left: 785px;
+}
+.black{
+    width: 25px;
+    height: 90px;
+    background-color: black;
+    list-style: none;
+    color: white;
+    position: absolute;   
+}
+#black1{
+    margin-left: 20px;
+}
+#black2{
+    margin-left: 55px;
+}
+#black3{
+    margin-left: 115px;
+}
+#black4{
+    margin-left:150px;
+}
+#black5{
+    margin-left: 183px;
+}
+/*section footer*/
+
+.footer{
+    width: 300px;
+    height: 150px;
+    background-color:#FFCAAF;   
+    margin: 45px 520px;
+    padding: 15px;
+
+}
+.line1 , .line3{
+    display: flex;
+}
+
+.line2 span{
+    margin-right: 60px;
+}
+.line3{
+    margin-top: 20px;  
+}
+.line3 span{
+    width: 70px;
+    height: 30px;
+    background-color: #A7BED3;
+}
+.line4{
+  padding-right: 190px;
+}
+.line4 span{
+    padding-left: 40px;
+  
+
+}
+.footer p{
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    margin-right: 5px;
+}

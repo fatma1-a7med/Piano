@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- start section header-->
+    <header class="header">
+        <h1>PIANO PLAYER</h1>
+        <p>Follow the song below to play the piano</p>    
+       
+    </header>
+<!-- end section header-->
+
+<!-- start body-->
+    <ul class="list">
+
+        <li class="white" onclick="audio1.play()"><span class="li1">C</span></li>
+        <li class="white" onclick="audio2.play()"><span class="li2">D</span></li>
+        <li class="white" onclick="audio3.play()"><span class="li3">E</span></li>
+        <li class="white" onclick="audio4.play()"><span class="li4">F</span></li>
+        <li class="white" onclick="audio5.play()"><span class="li5">G</span></li>
+        <li class="white" onclick="audio6.play()"><span class="li6">A</span></li>
+        <li class="white" onclick="audio7.play()"><span class="li7">B</span></li>
+        <li class="white" onclick="audio8.play()"><span class="li8">C</span></li>
+
+        <li class="black" id="black1" onclick="audio9.play()">C#</li>
+        <li class="black" id="black2" onclick="audio10.play()">D#</li>
+        <li class="black" id="black3" onclick="audio11.play()">F#</li>
+        <li class="black" id="black4" onclick="audio12.play()">G#</li>
+        <li class="black" id="black5" onclick="audio13.play()">A#</li>
+
+    </ul>
+<!-- end body-->
+<!-- start section footer-->
+    <footer class="footer">
+        <div class="line1">
+              <p>HAP -</p>
+              <p>PY -</p>
+              <p>BIRTH -</p>
+              <p>DAY</p>
+        </div>
+       <div class="line2">
+              <span>G</span>
+              <span>G</span>
+              <span>A</span>
+              <span>G</span>
+       </div>
+       <div class="line3">
+              <p>TO</p>
+              <p>YOU</p>
+              <span>line 2</span>
+       </div>
+       <div class="line4">
+              <span>C</span>
+              <span>B</span>
+       </div>
+    </footer>
+<!-- end section footer-->
+
+<script>
+    var audio1= new Audio();
+    audio1.src="Music_Note/A.wav";
+    var audio2= new Audio();
+    audio2.src="Music_Note/A_Drum.wav";
+    var audio3= new Audio();
+    audio3.src="Music_Note/B.wav";
+    var audio4= new Audio();
+    audio4.src="Music_Note/B_Drum.wav";
+    var audio5= new Audio();
+    audio5.src="Music_Note/C.wav";
+    var audio6= new Audio();
+    audio6.src="Music_Note/C_Drum.wav";
+    var audio7= new Audio();
+    audio7.src="Music_Note/D.wav";
+    var audio8= new Audio();
+    audio8.src="Music_Note/D_Drum.wav";
+    var audio9= new Audio();
+    audio9.src="Music_Note/E.wav";
+    var audio10= new Audio();
+    audio10.src="Music_Note/E_Drum.wav";
+    var audio11= new Audio();
+    audio11.src="Music_Note/F.wav";
+    var audio12= new Audio();
+    audio12.src="Music_Note/F_Drum.wav";
+    var audio13= new Audio();
+    audio13.src="Music_Note/G_Drum.wav";
+</script>
+</body>
+</html>
